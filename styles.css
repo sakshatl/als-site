@@ -1,10 +1,14 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
-*, body {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Poppins";
+}
+
+body {
   background-color: #fafafa;
 }
 
@@ -65,6 +69,12 @@ h1, h3, h3 {
   display: flex;
   flex-direction: column;
   justify-content: start;
+}
+
+
+/* form styles */
+.input-field {
+  margin-top: 40px !important;
 }
 
 @media screen and (max-width: 1000px) {
