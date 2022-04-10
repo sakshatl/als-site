@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- navbar starts here  -->
+  <nav class="nav-wrapper z-depth-0 blue darken-2">
+    <div class="container">
+      <a href="/" class="brand-logo white-text text-darken-2">ALS-CHECK</a>
+      <ul class="right blue darken-2">
+        <li class="blue darken-2">
+          <a href="/" class="btn orange darken-2" style="font-weight: 600; text-transform: none;">View All Reports</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- navbar ends here -->
+  <div style="margin-top: 50px;" class="container">
+    <div class="card-panel">
+      <h4 class="blue-text text-darken-2">Your Report</h4>
+      <p><strong>Name: </strong>{{name}}</p>
+      <p><strong>Email: </strong>{{email}}</p>
+      <p><strong>Phone: </strong>{{phone}}</p>
+      <div class="row">
+        <div class="col m3">
+          <img height="300" src="./graph1.png" alt="">
+        </div>
+        <div class="col m3">
+          <img height="300" src="./graph2.png" alt="">
+        </div>
+      </div>
+      <h5>You are detected with ALS. Please take regular cure</h5>
+    </div>
+  </div>
+</body>
+</html>
